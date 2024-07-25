@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "GroupMe - Web Tab",
+  "description": "This extensions opens a Thunderbird tab for the GroupMe web interface.",
+  "version": "1.0.0",
+  "author": "jcosenti",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@jcosenti.groupme.webtab",
+      "strict_min_version": "115.0"
+    }
+  },
+  "icons": {
+    "32": "groupme.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+
